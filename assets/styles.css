@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color:#EBEBEB;
+    padding-top: 5em;
+}
+* {
+    font-family: 'Raleway';
+}
+
+
+.availableslot {
+  background-color: #64cf53;
+	border-radius: 4px;
+	transition: background-color 0.3s;
+}
+.availableslot:hover {
+    background-color: #4dcf34;
+	border-radius: 4px;
+}
+
+.unavailableslot {
+  background-color: #de4e4e;
+	border-radius: 4px;
+	transition: background-color 0.3s;
+  color: white;
+}
+.unavailableslot:hover {
+  background-color: #de3737;
+}
+
+.userslot {
+    background-color: #ffa300;
+	border-radius: 4px;
+}
+.userslot:hover {
+    background-color: #ffa404;
+	border-radius: 4px;
+}
+
+table {
+  border-spacing: 0.1rem;
+  border-color: black;
+  width: 85%;
+  border: 1px solid;
+}
+
+th {
+  height: 200%;
+}
+
+td {
+  width: 20%;
+}
+
+.centered-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
